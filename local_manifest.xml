@@ -6,4 +6,11 @@
 <project name="android_device_google_sprout-common" path="device/google/sprout-common" remote="MSF" revision="cm-13.0" />
 <project name="proprietary_vendor_google" path="vendor/google/" remote="MSF" revision="cm-13.0" />
 
+<project path="build_script" name="android-build-script" remote="MSF" revision="master" >
+    <copyfile src="build.sh" dest="build.sh" />
+    <copyfile src="customscript.sh" dest="customscript.sh" />
+  </project>
+
+<!-- OTA Updates -->
+<project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" revision="aosp" />
 </manifest>
