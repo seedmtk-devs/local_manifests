@@ -13,4 +13,5 @@
 
 <!-- OTA Updates -->
 <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" revision="aosp" />
+<remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
 </manifest>
