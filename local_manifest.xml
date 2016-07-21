@@ -5,6 +5,8 @@
 <project name="android_device_google_seedmtk" path="device/google/seedmtk" remote="MSF" revision="aosip" />
 <project name="android_device_google_sprout-common" path="device/google/sprout-common" remote="MSF" revision="du-m" />
 <project name="proprietary_vendor_google" path="vendor/google/" remote="MSF" revision="cm-13.0" />
+<remove-project name="platform_vendor_aosip" />
+<project name="MSF-Jarvis/platform_vendor_aosip" path="vendor/aosip" remote="github" revision="oms" />
 
 <!--<project path="build_script" name="android-build-script" remote="MSF" revision="master" >
     <copyfile src="build.sh" dest="build.sh" />
