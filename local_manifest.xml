@@ -8,7 +8,8 @@
 
 <project path="build_script" name="android-build-script" remote="MSF" revision="du-m" >
     <copyfile src="build.sh" dest="build.sh" />
-    <copyfile src="customscript.sh" dest="customscript.sh" />
-  </project>
+    <copyfile src="otagen.sh" dest="otagen.sh" />
+    <copyfile src="ota_conf" dest="ota_conf" />
+</project>
 
 </manifest>
