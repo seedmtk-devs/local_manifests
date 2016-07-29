@@ -4,7 +4,7 @@
 
 <project name="android_device_google_seedmtk" path="device/google/seedmtk" remote="seedmtk-devs" revision="aosip" />
 <project name="android_device_google_sprout-common" path="device/google/sprout-common" remote="seedmtk-devs" revision="aosip-oms" />
-<project name="proprietary_vendor_google" path="vendor/google" remote="seedmtk-devs" revision="cm-13.0" />
+<project name="proprietary_vendor_google" path="vendor/google" remote="seedmtk-devs" revision="staging" />
 
 <project path="build_script" name="android-build-script" remote="seedmtk-devs" revision="du-m" >
     <copyfile src="build.sh" dest="build.sh" />
