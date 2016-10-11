@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote fetch="https://github.com/seedmtk-devs/" name="seedmtk-devs" />
+<remote fetch="https://github.com/Megatron007/" name="Megatron007" />
 
-<project name="android_device_google_seedmtk" path="device/google/seedmtk" remote="seedmtk-devs" revision="xos-m" />
-<project name="android_device_google_sprout-common" path="device/google/sprout-common" remote="seedmtk-devs" revision="du-m" />
-<project name="proprietary_vendor_google" path="vendor/google" remote="seedmtk-devs" revision="cm-13.0" />
-
-<remove-project name="android_hardware_ril" />
-<project path="hardware/ril" name="DirtyUnicorns/android_hardware_ril" remote="github" revision="m" />
-<remove-project name="android_hardware_ril-caf" />
+<project name="device_motorola_ghost" path="device/motorola/ghost" remote="Megatron007" revision="cm-13.0" />
+<project name="device_motorola_msm8960dt-common" path="device/motorola/msm8960dt-common" remote="Megatron007" revision="cm-13.0" />
+<project name="kernel_motorola_ghost" path="kernel/motorola/ghost" remote="Megatron007" revision="cm-13.0" />
+<project name="proprietary_vendor_motorola" path="vendor/motorola" remote="TheMuppets" revision="cm-13.0" clone-depth="1"/>
 
 </manifest>
