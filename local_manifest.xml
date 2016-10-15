@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote fetch="https://github.com/MSF-Jarvis/" name="MSF" />
+<remote fetch="https://github.com/seedmtk-devs/" name="MSF" />
 
-<project name="android_device_google_seedmtk" path="device/google/seedmtk" remote="MSF" revision="aosip" />
+<project name="android_device_google_seedmtk" path="device/google/seedmtk" remote="MSF" revision="aosip-oms" />
 <project name="android_device_google_sprout-common" path="device/google/sprout-common" remote="MSF" revision="du-m" />
 <project name="proprietary_vendor_google" path="vendor/google/" remote="MSF" revision="cm-13.0" />
-<remove-project name="platform_vendor_aosip" />
-<project name="MSF-Jarvis/platform_vendor_aosip" path="vendor/aosip" remote="github" revision="oms" />
-
-<!--<project path="build_script" name="android-build-script" remote="MSF" revision="master" >
-    <copyfile src="build.sh" dest="build.sh" />
-    <copyfile src="customscript.sh" dest="customscript.sh" />
-  </project>-->
-
-<!-- OTA Updates -->
-<!--<project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" revision="aosp" />
-<remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />-->
 </manifest>
