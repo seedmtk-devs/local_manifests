@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote fetch="https://github.com/MSF-Jarvis/" name="MSF" />
+<remote fetch="https://github.com/seedmtk/" name="MSF" />
 
 <project name="android_device_google_seedmtk" path="device/google/seedmtk" remote="MSF" revision="pn-oms" />
-<project name="android_device_google_sprout-common" path="device/google/sprout-common" remote="MSF" revision="pn-oms" />
-<remove-project name="proprietary_vendor_google" />
-<project name="MSF-Jarvis/proprietary_vendor_google" path="vendor/google" remote="github" revision="cm-13.0" />
-<remove-project name="android_vendor_nexus" />
+<project name="android_device_google_sprout-common" path="device/google/sprout-common" remote="MSF" revision="du-m" />
+<project name="proprietary_vendor_google" path="vendor/google" remote="MSF" revision="cm-13.0" />
 </manifest>
