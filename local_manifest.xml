@@ -3,7 +3,7 @@
 <remote fetch="https://github.com/seedmtk-devs/" name="seedmtk-devs" />
 
 <project name="android_device_google_seedmtk" path="device/google/seedmtk" remote="seedmtk-devs" revision="aosp-m" />
-<project name="android_device_google_sprout-common" path="device/google/sprout-common" remote="seedmtk-devs" revision="aosp-m" />
+<project name="android_device_google_sprout-common" path="device/google/sprout-common" remote="seedmtk-devs" revision="du-m" />
 <project name="proprietary_vendor_google" path="vendor/google" remote="seedmtk-devs" revision="cm-13.0" />
 
 </manifest>
